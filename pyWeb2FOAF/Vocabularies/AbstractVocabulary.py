@@ -4,3 +4,6 @@ class AbstractVocabulary:
 	
 	def getTriples(self):
 		raise NotImplementedError("Abstract class")
+
+	def getPrefix(self):
+		raise NotImplementedError("Abstract class")
