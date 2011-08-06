@@ -1,5 +1,9 @@
 """
 A RDF triple (output of vocabularies for use by output modules)
+
+This class is used to represent an RDF triple of any ontology.
+It will be used by classes in the OUTPUT directory to determine
+each RDF triple that should contain the output RDF file.
 """
 
 class RDFTriple: 		
