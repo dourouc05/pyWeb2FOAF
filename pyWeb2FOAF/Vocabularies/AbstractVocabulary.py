@@ -1,3 +1,7 @@
+"""
+Interface for vocabularies
+"""
+
 class AbstractVocabulary:
 	def __init__(self)
 		raise NotImplementedError("Abstract class")

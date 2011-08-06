@@ -1,3 +1,7 @@
+"""
+A prefix used by a vocabulary. 
+"""
+
 class Prefix: 
 	def __init__(self, prefix, uri):
 		self._prefix = prefix

@@ -1,3 +1,7 @@
+"""
+A RDF triple (output of vocabularies for use by output modules)
+"""
+
 class RDFTriple: 		
 	def __init__(self, subject, predicate, obj):
 		self._subject   = subject
